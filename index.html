@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Flights | Airline Directory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="brand">✈️ Explore Flights</a>
+    <a href="#about" class="about-link">About Us</a>
+  </header>
+
+  <section class="hero">
+    <p class="eyebrow">YOUR WORLD OF AVIATION</p>
+    <h1>Discover airlines.<br><span>Explore the world.</span></h1>
+    <p class="subtitle">
+      Search an airline to discover its story, photos and official website.
+    </p>
+
+    <div class="search-box">
+      <span>⌕</span>
+      <input id="search" type="search"
+        placeholder="Type an airline name..."
+        autocomplete="off">
+    </div>
+  </section>
+
+  <main class="directory">
+    <div class="list-heading">
+      <div>
+        <p class="eyebrow">EXPLORE THE SKIES</p>
+        <h2>Airline directory</h2>
+      </div>
+      <p id="result-count">Loading airlines...</p>
+    </div>
+
+    <div id="results" class="airline-grid"></div>
+  </main>
+
+  <section class="about-section" id="about">
+    <p class="eyebrow">OUR STORY</p>
+    <h2>About this website</h2>
+    <p>
+      Every airline has a story. Explore Flights is an independent airline
+      directory created to help people discover airline companies, learn
+      about their history and find their official websites.
+    </p>
+    <p>
+      We are not an airline booking agency and are not affiliated with
+      the airlines listed. Please verify information through each airline's
+      official website.
+    </p>
+  </section>
+
+  <footer>
+    <p>✈️ Explore Flights</p>
+    <p>Discover airlines. Explore the world.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
